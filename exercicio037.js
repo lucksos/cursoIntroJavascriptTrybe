@@ -15,7 +15,7 @@ function buscaNumeroPrimos(n) {
             }
         }
         if (contagemDivisores === 2) { /* Caso o número tenha apenas 2 divisores... */
-            numerosPrimos.push(c); /* ...ele é adicionado à lista */
+            numerosPrimos.push(c); /* ...ele é adicionado à lista de primos */
         }
     }
     
